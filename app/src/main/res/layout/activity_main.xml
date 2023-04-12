@@ -6,6 +6,22 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatEditText
+       android:id="@+id/etName"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:singleLine="true"
+       android:maxLines="1"
+       android:layout_margin="32dp"
+       app:layout_constraintBottom_toTopOf="@+id/btnStar"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+
+
+       />
+
+
 <androidx.appcompat.widget.AppCompatButton
     android:id="@+id/btnStar"
     android:layout_width="wrap_content"
